@@ -6,7 +6,7 @@ export default function About() {
       <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem', maxWidth: '1000px', margin: '0 auto' }}>
         
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
-          <h2 style={{ fontSize: 'clamp(2rem, 10vw, 4rem)', color: 'var(--pink-scream)' }}>EVIDENCE #01:</h2>
+          <h2 className="glitch" style={{ fontSize: 'clamp(2rem, 10vw, 4rem)', color: 'var(--pink-scream)' }}>EVIDENCE #01:</h2>
           <span className="font-marker" style={{ fontSize: '2rem', color: 'var(--yellow-hazard)', transform: 'rotate(-5deg)' }}>
             Who is this guy?
           </span>
@@ -41,7 +41,7 @@ export default function About() {
       >
         <path 
           className="chaos-path"
-          d="M 280 10 C 100 50 10 150 50 200 S 200 250 150 350 S 10 380 50 450 L 80 410 L 50 450 L 20 420" 
+          d="M 280 10 C 100 50 10 150 50 200 S 200 250 150 350 S 10 380 50 450" 
           fill="none" 
           stroke="var(--cyan-pierce)" 
           strokeWidth="8" 

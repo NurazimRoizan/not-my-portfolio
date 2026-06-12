@@ -58,6 +58,11 @@ function App() {
 
   return (
     <div ref={containerRef} className="app-container" style={{ position: 'relative' }}>
+      <div className="chaos-marquee">
+        <div className="chaos-marquee-content">
+           * ERROR 404 * UNHANDLED EXCEPTION * KERNEL PANIC * FATAL ERROR * SYSTEM FAILURE * ERROR 404 * UNHANDLED EXCEPTION * KERNEL PANIC * 
+        </div>
+      </div>
       <Hero />
       <About />
       <Skills />

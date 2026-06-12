@@ -19,8 +19,17 @@ export default function Hero() {
           WARNING: CHAOS AHEAD
         </div>
         
-        <h1 style={{ fontSize: 'clamp(3rem, 10vw, 6rem)', lineHeight: '1', marginBottom: '1rem', color: 'var(--cyan-pierce)' }}>
-          NURAZIM ROIZAN
+        <h1
+          className="glitch"
+          style={{ 
+            fontSize: 'clamp(4rem, 15vw, 8rem)', 
+            lineHeight: '1', 
+            color: 'var(--white-pure)',
+            marginBottom: '1rem',
+          }}
+        >
+          NURAZIM <br />
+          ROIZAN
         </h1>
         
         <div 
@@ -54,7 +63,7 @@ export default function Hero() {
       >
         <path 
           className="chaos-path"
-          d="M 10 20 L 120 80 L 60 140 L 180 200 L 120 240 L 120 280 L 90 240 L 120 280 L 150 240" 
+          d="M 10 20 L 120 80 L 60 140 L 180 200 L 120 240 L 120 280" 
           fill="none" 
           stroke="var(--pink-scream)" 
           strokeWidth="6" 

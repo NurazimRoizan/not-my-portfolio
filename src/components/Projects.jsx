@@ -43,7 +43,7 @@ export default function Projects() {
     <section className="section-container gsap-section" style={{ padding: '4rem 2rem', zIndex: 20 }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         
-        <h2 style={{ fontSize: 'clamp(2.5rem, 10vw, 4rem)', color: 'var(--cyan-pierce)', marginBottom: '3rem', textAlign: 'center' }}>
+        <h2 className="glitch" style={{ fontSize: 'clamp(2.5rem, 10vw, 4rem)', color: 'var(--cyan-pierce)', marginBottom: '3rem', textAlign: 'center' }}>
           CASE FILES
         </h2>
 
