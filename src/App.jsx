@@ -33,12 +33,11 @@ function App() {
       )
     })
     
-    // Animate chaos paths
+    // Animate chaos paths using pathLength="1" technique
     const paths = document.querySelectorAll('.chaos-path')
     paths.forEach((path) => {
-      const length = path.getTotalLength()
-      // Use a larger gap to prevent the next dash (arrowhead bleed) from showing up early
-      gsap.set(path, { strokeDasharray: `${length} ${length + 500}`, strokeDashoffset: length, opacity: 1 })
+      // Use normalized pathLength=1 with a large gap (2) to completely prevent bleeding
+      gsap.set(path, { strokeDasharray: "1 2", strokeDashoffset: 1, opacity: 1 })
       gsap.to(path, {
         strokeDashoffset: 0,
         ease: 'none',
