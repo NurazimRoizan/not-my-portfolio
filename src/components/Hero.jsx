@@ -54,11 +54,12 @@ export default function Hero() {
       >
         <path 
           className="chaos-path"
-          d="M 10 10 Q 150 50 180 280 L 160 250 M 180 280 L 210 260" 
+          d="M 10 20 L 120 80 L 60 140 L 180 200 L 120 280 M 120 280 L 90 230 M 120 280 L 160 250" 
           fill="none" 
           stroke="var(--pink-scream)" 
           strokeWidth="6" 
           strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </svg>
     </section>

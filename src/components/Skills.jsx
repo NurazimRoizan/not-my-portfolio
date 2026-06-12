@@ -51,11 +51,12 @@ export default function Skills() {
       >
         <path 
           className="chaos-path"
-          d="M 10 10 C 50 100 200 150 220 280 L 190 260 M 220 280 L 250 260" 
+          d="M 100 20 C 250 20 250 80 100 80 C -20 80 -20 140 100 140 C 200 140 200 200 100 200 C 30 200 30 250 100 280 M 100 280 L 70 240 M 100 280 L 130 240" 
           fill="none" 
           stroke="var(--yellow-hazard)" 
           strokeWidth="6" 
           strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <text x="20" y="150" fill="var(--yellow-hazard)" fontSize="1.5rem" className="font-marker" transform="rotate(-15 20 150)">
           LOOK AT THIS
