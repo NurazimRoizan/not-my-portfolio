@@ -41,6 +41,20 @@ export default function Footer() {
         </p>
 
       </div>
+
+      <svg 
+        style={{ position: 'absolute', bottom: '15vh', right: '10%', width: '150px', height: '150px', overflow: 'visible', pointerEvents: 'none', zIndex: 50 }} 
+        viewBox="0 0 150 150"
+      >
+        <path 
+          className="chaos-path"
+          d="M 10 10 L 140 140 M 140 10 L 10 140" 
+          fill="none" 
+          stroke="var(--white-pure)" 
+          strokeWidth="10" 
+          strokeLinecap="round"
+        />
+      </svg>
     </section>
   )
 }

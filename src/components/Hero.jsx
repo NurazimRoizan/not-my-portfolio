@@ -47,6 +47,20 @@ export default function Hero() {
           DESCEND INTO MADNESS ↓
         </a>
       </div>
+
+      <svg 
+        style={{ position: 'absolute', bottom: '-150px', left: '10%', width: '150px', height: '250px', overflow: 'visible', pointerEvents: 'none', zIndex: 50 }} 
+        viewBox="0 0 200 300"
+      >
+        <path 
+          className="chaos-path"
+          d="M 10 10 Q 150 50 180 280 L 160 250 M 180 280 L 210 260" 
+          fill="none" 
+          stroke="var(--pink-scream)" 
+          strokeWidth="6" 
+          strokeLinecap="round"
+        />
+      </svg>
     </section>
   )
 }

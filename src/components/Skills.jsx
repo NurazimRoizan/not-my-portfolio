@@ -44,6 +44,23 @@ export default function Skills() {
         </div>
 
       </div>
+
+      <svg 
+        style={{ position: 'absolute', bottom: '-150px', left: '5%', width: '150px', height: '200px', overflow: 'visible', pointerEvents: 'none', zIndex: 50 }} 
+        viewBox="0 0 250 300"
+      >
+        <path 
+          className="chaos-path"
+          d="M 10 10 C 50 100 200 150 220 280 L 190 260 M 220 280 L 250 260" 
+          fill="none" 
+          stroke="var(--yellow-hazard)" 
+          strokeWidth="6" 
+          strokeLinecap="round"
+        />
+        <text x="20" y="150" fill="var(--yellow-hazard)" fontSize="1.5rem" className="font-marker" transform="rotate(-15 20 150)">
+          LOOK AT THIS
+        </text>
+      </svg>
     </section>
   )
 }

@@ -6,7 +6,6 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import ChaosDecorations from './components/ChaosDecorations'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -34,6 +33,23 @@ function App() {
       )
     })
     
+    // Animate chaos paths
+    const paths = document.querySelectorAll('.chaos-path')
+    paths.forEach((path) => {
+      const length = path.getTotalLength()
+      gsap.set(path, { strokeDasharray: length, strokeDashoffset: length, opacity: 1 })
+      gsap.to(path, {
+        strokeDashoffset: 0,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: path,
+          start: 'top 80%',
+          end: 'bottom 20%',
+          scrub: 1,
+        }
+      })
+    })
+
     return () => {
       ScrollTrigger.getAll().forEach(t => t.kill())
     }
@@ -41,7 +57,6 @@ function App() {
 
   return (
     <div ref={containerRef} className="app-container" style={{ position: 'relative' }}>
-      <ChaosDecorations />
       <Hero />
       <About />
       <Skills />

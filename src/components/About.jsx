@@ -34,6 +34,29 @@ export default function About() {
 
         </div>
       </div>
+
+      <svg 
+        style={{ position: 'absolute', bottom: '-50px', right: '5%', width: '150px', height: '200px', overflow: 'visible', pointerEvents: 'none', zIndex: 50 }} 
+        viewBox="0 0 300 400"
+      >
+        <path 
+          className="chaos-path"
+          d="M 280 10 C 100 50 10 150 50 200 S 200 250 150 350 S 10 380 50 450" 
+          fill="none" 
+          stroke="var(--cyan-pierce)" 
+          strokeWidth="8" 
+          strokeLinecap="round"
+          strokeDasharray="20 10"
+        />
+        <path 
+          className="chaos-path"
+          d="M 50 450 L 80 410 M 50 450 L 20 420"
+          fill="none" 
+          stroke="var(--cyan-pierce)" 
+          strokeWidth="8" 
+          strokeLinecap="round"
+        />
+      </svg>
     </section>
   )
 }
