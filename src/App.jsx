@@ -6,6 +6,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import ChaosDecorations from './components/ChaosDecorations'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -39,7 +40,8 @@ function App() {
   }, [])
 
   return (
-    <div ref={containerRef} className="app-container">
+    <div ref={containerRef} className="app-container" style={{ position: 'relative' }}>
+      <ChaosDecorations />
       <Hero />
       <About />
       <Skills />
