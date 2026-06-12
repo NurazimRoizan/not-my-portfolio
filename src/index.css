@@ -181,7 +181,7 @@ h1, h2, h3, h4 {
 
 .chaos-marquee {
   position: fixed;
-  top: 40%;
+  top: 15%;
   left: -10vw;
   width: 120vw;
   background: var(--yellow-hazard);
