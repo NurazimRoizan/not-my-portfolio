@@ -7,7 +7,7 @@ const projects = [
     description: "Built an interactive Java desktop app to demystify complex graph isomorphism and the k-Pebble game. Took abstract math and made it a tangible weapon for learning.",
     tags: ["Java", "Graphstream", "Graph Theory"],
     theme: "pink",
-    repo: "#",
+    repo: "https://github.com/NurazimRoizan/dissertation-com3610",
     live: null
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     description: "Hacked an Unphone (ESP32) into a dual-input game controller. Flick the device to jump via IMU sensors or smash the physical button. Sent HTTP commands to a local server. Absolute physical chaos.",
     tags: ["C++", "ESP32", "IoT"],
     theme: "cyan",
-    repo: "#",
+    repo: null,
     live: null
   },
   {
@@ -25,7 +25,7 @@ const projects = [
     description: "Built a custom single-handed BLE keyboard and IR remote. Designed purely for maximum laziness on the sofa. Connects to anything, controls everything.",
     tags: ["Embedded C++", "BLE", "IR"],
     theme: "yellow",
-    repo: "#",
+    repo: "https://github.com/NurazimRoizan/GeeyBoard",
     live: null
   },
   {
@@ -34,8 +34,8 @@ const projects = [
     description: "A PWA built to track periods and daily poop counts. Because bloated ad-filled mobile trackers are a scam. Evolved into a Next.js beast with real-time partner syncing, native push notifications, and secure Clerk auth.",
     tags: ["Next.js", "PWA", "Clerk"],
     theme: "pink",
-    repo: "#",
-    live: "#"
+    repo: "https://github.com/NurazimRoizan/PiYak",
+    live: "https://piyak.jimiroi.com/"
   },
   {
     id: 5,
@@ -43,8 +43,8 @@ const projects = [
     description: "Why buy a security camera when you have an old phone and a browser? A serverless, peer-to-peer PWA that keeps an eye on your stuff with chaotic sticker aesthetics and raw real-time motion detection.",
     tags: ["Serverless", "P2P", "PWA"],
     theme: "cyan",
-    repo: "#",
-    live: "#"
+    repo: "https://github.com/NurazimRoizan/Mata",
+    live: "https://portfolio.jimiroi.com/Mata/"
   },
   {
     id: 6,
@@ -52,8 +52,8 @@ const projects = [
     description: "A Progressive Web App for tracking app ideas. Built as a technical proving ground to brutally experiment with modern backend architectures, Clerk authentication, and Prisma/PostgreSQL models.",
     tags: ["PostgreSQL", "Prisma", "Clerk"],
     theme: "yellow",
-    repo: "#",
-    live: "#"
+    repo: "https://github.com/NurazimRoizan/The-Bench",
+    live: "https://thebench.vercel.app/"
   }
 ]
 
