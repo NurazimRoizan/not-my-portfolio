@@ -1,0 +1,39 @@
+import React from 'react'
+
+export default function About() {
+  return (
+    <section id="about" className="section-container gsap-section" style={{ padding: '4rem 2rem' }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem', maxWidth: '1000px', margin: '0 auto' }}>
+        
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <h2 style={{ fontSize: '4rem', color: 'var(--pink-scream)' }}>EVIDENCE #01:</h2>
+          <span className="font-marker" style={{ fontSize: '2rem', color: 'var(--yellow-hazard)', transform: 'rotate(-5deg)' }}>
+            Who is this guy?
+          </span>
+        </div>
+
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+          
+          <div className="brutal-box cyan" style={{ transform: 'rotate(-2deg)' }}>
+            <h3 style={{ marginBottom: '1rem', color: 'var(--cyan-pierce)' }}>CURRENT TARGET</h3>
+            <h4 style={{ fontSize: '1.5rem' }}>Softinn Solutions</h4>
+            <p className="font-marker" style={{ color: 'var(--pink-scream)', marginBottom: '1rem' }}>Feb 2026 - Present</p>
+            <p>
+              Developing a massive suite of hospitality SaaS apps. I tear down complex operational bottlenecks and rebuild them as highly responsive, user-centric weapons using Angular, C#, and raw spite for bad UI.
+            </p>
+          </div>
+
+          <div className="brutal-box pink" style={{ transform: 'rotate(1deg)' }}>
+            <h3 style={{ marginBottom: '1rem', color: 'var(--pink-scream)' }}>ORIGIN STORY</h3>
+            <h4 style={{ fontSize: '1.5rem' }}>University of Sheffield</h4>
+            <p className="font-marker" style={{ color: 'var(--cyan-pierce)', marginBottom: '1rem' }}>BSc Computer Science (2025)</p>
+            <p>
+              Survived Advanced Algorithms, 3D Graphics, and Cybersecurity. Built a Ruby on Rails platform for train parts during "Software Hut" just to prove I could engineer a system from nothing to deployed.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}
