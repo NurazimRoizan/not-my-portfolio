@@ -41,7 +41,7 @@ export default function About() {
       >
         <path 
           className="chaos-path"
-          d="M 280 10 C 100 50 10 150 50 200 S 200 250 150 350 S 10 380 50 450 M 50 450 L 80 410 M 50 450 L 20 420" 
+          d="M 280 10 C 100 50 10 150 50 200 S 200 250 150 350 S 10 380 50 450 L 80 410 L 50 450 L 20 420" 
           fill="none" 
           stroke="var(--cyan-pierce)" 
           strokeWidth="8" 

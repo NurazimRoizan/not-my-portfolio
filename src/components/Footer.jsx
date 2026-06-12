@@ -49,7 +49,7 @@ export default function Footer() {
       >
         <path 
           className="chaos-path"
-          d="M 10 10 L 140 140 M 140 10 L 10 140" 
+          d="M 10 10 L 140 140 L 75 75 L 140 10 L 10 140" 
           fill="none" 
           stroke="var(--white-pure)" 
           strokeWidth="10" 

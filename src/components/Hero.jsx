@@ -54,7 +54,7 @@ export default function Hero() {
       >
         <path 
           className="chaos-path"
-          d="M 10 20 L 120 80 L 60 140 L 180 200 L 120 240 L 120 280 M 120 280 L 90 240 M 120 280 L 150 240" 
+          d="M 10 20 L 120 80 L 60 140 L 180 200 L 120 240 L 120 280 L 90 240 L 120 280 L 150 240" 
           fill="none" 
           stroke="var(--pink-scream)" 
           strokeWidth="6" 

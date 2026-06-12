@@ -45,7 +45,7 @@ function App() {
         scrollTrigger: {
           trigger: path,
           start: 'top 80%',
-          end: 'bottom 20%',
+          end: 'bottom 85%',
           scrub: 1,
         }
       })
