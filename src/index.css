@@ -181,16 +181,14 @@ h1, h2, h3, h4 {
 
 .chaos-marquee {
   position: fixed;
-  top: 15%;
   left: -10vw;
   width: 120vw;
   background: var(--yellow-hazard);
   color: var(--bg-void);
   font-family: 'Inter', sans-serif;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3rem;
   padding: 1rem 0;
-  transform: rotate(-10deg);
   z-index: 9999;
   overflow: hidden;
   white-space: nowrap;
@@ -199,12 +197,32 @@ h1, h2, h3, h4 {
   mix-blend-mode: difference;
 }
 
+.chaos-marquee.top {
+  top: 5%;
+  transform: rotate(-3deg);
+}
+
+.chaos-marquee.bottom {
+  bottom: 5%;
+  transform: rotate(3deg);
+  background: var(--pink-scream);
+}
+
 .chaos-marquee-content {
   display: inline-block;
-  animation: marquee 8s linear infinite;
+  animation: marquee 10s linear infinite;
+}
+
+.chaos-marquee-content.reverse {
+  animation: marquee-reverse 10s linear infinite;
 }
 
 @keyframes marquee {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
+}
+
+@keyframes marquee-reverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
 }
