@@ -37,7 +37,8 @@ function App() {
     const paths = document.querySelectorAll('.chaos-path')
     paths.forEach((path) => {
       const length = path.getTotalLength()
-      gsap.set(path, { strokeDasharray: length, strokeDashoffset: length, opacity: 1 })
+      // Use a larger gap to prevent the next dash (arrowhead bleed) from showing up early
+      gsap.set(path, { strokeDasharray: `${length} ${length + 500}`, strokeDashoffset: length, opacity: 1 })
       gsap.to(path, {
         strokeDashoffset: 0,
         ease: 'none',
