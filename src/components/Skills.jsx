@@ -51,7 +51,6 @@ export default function Skills() {
       >
         <path 
           className="chaos-path"
-          pathLength="1"
           d="M 100 20 C 250 20 250 80 100 80 C -20 80 -20 140 100 140 C 200 140 200 200 100 200 C 30 200 100 230 100 280 M 100 280 L 70 240 M 100 280 L 130 240" 
           fill="none" 
           stroke="var(--yellow-hazard)" 

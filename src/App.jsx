@@ -33,11 +33,12 @@ function App() {
       )
     })
     
-    // Animate chaos paths using pathLength="1" technique
+    // Animate chaos paths securely
     const paths = document.querySelectorAll('.chaos-path')
     paths.forEach((path) => {
-      // Use normalized pathLength=1 with a large gap (2) to completely prevent bleeding
-      gsap.set(path, { strokeDasharray: "1 2", strokeDashoffset: 1, opacity: 1 })
+      // Add a generous buffer to the actual length to prevent subpath bleeding
+      const length = path.getTotalLength() + 500
+      gsap.set(path, { strokeDasharray: length, strokeDashoffset: length, opacity: 1 })
       gsap.to(path, {
         strokeDashoffset: 0,
         ease: 'none',
