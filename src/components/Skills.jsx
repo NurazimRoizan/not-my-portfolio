@@ -8,7 +8,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="section-container gsap-section" style={{ padding: '4rem 2rem', backgroundColor: 'var(--bg-void)' }}>
+    <section className="section-container gsap-section" style={{ padding: '4rem 2rem', backgroundColor: 'var(--bg-void)', zIndex: 30 }}>
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
         
         <h2 style={{ fontSize: 'clamp(2.5rem, 10vw, 4rem)', color: 'var(--yellow-hazard)', textAlign: 'right', marginBottom: '2rem' }}>

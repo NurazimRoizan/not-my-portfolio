@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <section id="about" className="section-container gsap-section" style={{ padding: '4rem 2rem' }}>
+    <section id="about" className="section-container gsap-section" style={{ padding: '4rem 2rem', zIndex: 40 }}>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem', maxWidth: '1000px', margin: '0 auto' }}>
         
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>

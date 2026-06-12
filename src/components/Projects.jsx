@@ -40,7 +40,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="section-container gsap-section" style={{ padding: '4rem 2rem' }}>
+    <section className="section-container gsap-section" style={{ padding: '4rem 2rem', zIndex: 20 }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         
         <h2 style={{ fontSize: 'clamp(2.5rem, 10vw, 4rem)', color: 'var(--cyan-pierce)', marginBottom: '3rem', textAlign: 'center' }}>

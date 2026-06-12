@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <section className="section-container gsap-section" style={{ justifyContent: 'center', alignItems: 'center', minHeight: '100vh' }}>
+    <section className="section-container gsap-section" style={{ justifyContent: 'center', alignItems: 'center', minHeight: '100vh', zIndex: 50 }}>
       <div className="brutal-box" style={{ maxWidth: '800px', textAlign: 'center', position: 'relative' }}>
         <div 
           className="font-marker" 

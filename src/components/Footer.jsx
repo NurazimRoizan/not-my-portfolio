@@ -7,7 +7,8 @@ export default function Footer() {
       alignItems: 'center',
       borderTop: '10px dashed var(--yellow-hazard)',
       marginTop: '5rem',
-      backgroundColor: 'var(--bg-void)'
+      backgroundColor: 'var(--bg-void)',
+      zIndex: 10
     }}>
       <div style={{ textAlign: 'center', maxWidth: '800px' }}>
         
