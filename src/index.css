@@ -23,12 +23,18 @@
   cursor: crosshair;
 }
 
-body {
+html, body {
   background-color: var(--bg-void);
   color: var(--white-pure);
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
+  max-width: 100vw;
   -webkit-font-smoothing: antialiased;
+}
+
+#root, .app-container {
+  overflow-x: hidden;
+  width: 100%;
 }
 
 h1, h2, h3, h4 {

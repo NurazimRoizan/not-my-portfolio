@@ -43,13 +43,13 @@ export default function Projects() {
     <section className="section-container gsap-section" style={{ padding: '4rem 2rem' }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         
-        <h2 style={{ fontSize: '4rem', color: 'var(--cyan-pierce)', marginBottom: '3rem', textAlign: 'center' }}>
+        <h2 style={{ fontSize: 'clamp(2.5rem, 10vw, 4rem)', color: 'var(--cyan-pierce)', marginBottom: '3rem', textAlign: 'center' }}>
           CASE FILES
         </h2>
 
         <div style={{ 
           display: 'grid', 
-          gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', 
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', 
           gap: '3rem' 
         }}>
           {projects.map((p, index) => {

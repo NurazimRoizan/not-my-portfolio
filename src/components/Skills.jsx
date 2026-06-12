@@ -11,7 +11,7 @@ export default function Skills() {
     <section className="section-container gsap-section" style={{ padding: '4rem 2rem', backgroundColor: 'var(--bg-void)' }}>
       <div style={{ maxWidth: '1000px', margin: '0 auto' }}>
         
-        <h2 style={{ fontSize: '4rem', color: 'var(--yellow-hazard)', textAlign: 'right', marginBottom: '2rem' }}>
+        <h2 style={{ fontSize: 'clamp(2.5rem, 10vw, 4rem)', color: 'var(--yellow-hazard)', textAlign: 'right', marginBottom: '2rem' }}>
           ARSENAL
         </h2>
 

@@ -5,14 +5,14 @@ export default function About() {
     <section id="about" className="section-container gsap-section" style={{ padding: '4rem 2rem' }}>
       <div style={{ display: 'flex', flexDirection: 'column', gap: '3rem', maxWidth: '1000px', margin: '0 auto' }}>
         
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <h2 style={{ fontSize: '4rem', color: 'var(--pink-scream)' }}>EVIDENCE #01:</h2>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', flexWrap: 'wrap' }}>
+          <h2 style={{ fontSize: 'clamp(2rem, 10vw, 4rem)', color: 'var(--pink-scream)' }}>EVIDENCE #01:</h2>
           <span className="font-marker" style={{ fontSize: '2rem', color: 'var(--yellow-hazard)', transform: 'rotate(-5deg)' }}>
             Who is this guy?
           </span>
         </div>
 
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '2rem' }}>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 300px), 1fr))', gap: '2rem' }}>
           
           <div className="brutal-box cyan" style={{ transform: 'rotate(-2deg)' }}>
             <h3 style={{ marginBottom: '1rem', color: 'var(--cyan-pierce)' }}>CURRENT TARGET</h3>
