@@ -48,7 +48,7 @@ export default function Hero() {
         </div>
 
         <p style={{ fontSize: '1.2rem', marginBottom: '2rem', maxWidth: '600px', margin: '0 auto 2rem auto' }}>
-          <strong>96% Front-End God. 4% Absolute Chaos.</strong><br/>
+          <strong>33% Greatness 67% Sixx Sebeeennnn.</strong><br/>
           I build unhinged digital experiences. Stop reading and start scrolling.
         </p>
 
