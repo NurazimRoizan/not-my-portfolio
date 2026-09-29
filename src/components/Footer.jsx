@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <section className="section-container gsap-section" style={{ 
+    <section id="contact" className="section-container gsap-section" style={{ 
       justifyContent: 'center', 
       alignItems: 'center',
       borderTop: '10px dashed var(--yellow-hazard)',
@@ -26,13 +26,32 @@ export default function Footer() {
         </p>
 
         <div style={{ display: 'flex', gap: '2rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-          <a href="https://github.com/NurazimRoizan" target="_blank" rel="noreferrer" className="brutal-button" style={{ transform: 'rotate(-2deg)' }}>
+          <a 
+            href="https://github.com/NurazimRoizan" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="brutal-button" 
+            style={{ transform: 'rotate(-2deg)' }}
+            aria-label="GitHub profile of Nurazim Roizan"
+          >
             GITHUB
           </a>
-          <a href="https://www.linkedin.com/in/nurazimroy" target="_blank" rel="noreferrer" className="brutal-button" style={{ backgroundColor: 'var(--pink-scream)', borderColor: 'var(--pink-scream)', color: 'var(--white-pure)', transform: 'rotate(2deg)' }}>
+          <a 
+            href="https://www.linkedin.com/in/nurazimroy" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="brutal-button" 
+            style={{ backgroundColor: 'var(--pink-scream)', borderColor: 'var(--pink-scream)', color: 'var(--white-pure)', transform: 'rotate(2deg)' }}
+            aria-label="LinkedIn profile of Nurazim Roizan"
+          >
             LINKEDIN
           </a>
-          <a href="mailto:rnurazim@gmail.com" className="brutal-button" style={{ backgroundColor: 'var(--yellow-hazard)', borderColor: 'var(--yellow-hazard)', color: 'black', transform: 'rotate(-1deg)' }}>
+          <a 
+            href="mailto:rnurazim@gmail.com" 
+            className="brutal-button" 
+            style={{ backgroundColor: 'var(--yellow-hazard)', borderColor: 'var(--yellow-hazard)', color: 'black', transform: 'rotate(-1deg)' }}
+            aria-label="Send email to Nurazim Roizan"
+          >
             SCREAM INTO THE VOID (EMAIL)
           </a>
         </div>

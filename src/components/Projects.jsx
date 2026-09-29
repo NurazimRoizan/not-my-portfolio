@@ -68,7 +68,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="section-container gsap-section" style={{ padding: '4rem 2rem', zIndex: 20 }}>
+    <section id="projects" className="section-container gsap-section" style={{ padding: '4rem 2rem', zIndex: 20 }}>
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         
         <h2 className="glitch" style={{ fontSize: 'clamp(2.5rem, 10vw, 4rem)', color: 'var(--cyan-pierce)', marginBottom: '3rem', textAlign: 'center' }}>
@@ -115,14 +115,26 @@ export default function Projects() {
                   ))}
                 </div>
                 
-                <div style={{ display: 'flex', gap: '1rem', marginTop: 'auto', paddingTop: '1rem', borderTop: '2px solid currentColor' }}>
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginTop: 'auto', paddingTop: '1rem', borderTop: '2px solid currentColor' }}>
                   {p.repo && (
-                    <a href={p.repo} target="_blank" rel="noreferrer" style={{ color: 'currentColor', fontWeight: 'bold', textDecoration: 'none', textTransform: 'uppercase' }}>
+                    <a 
+                      href={p.repo} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="brutal-link-button"
+                      aria-label={`View source code for ${p.title} on GitHub`}
+                    >
                       [ SOURCE CODE ]
                     </a>
                   )}
                   {p.live && (
-                    <a href={p.live} target="_blank" rel="noreferrer" style={{ color: 'currentColor', fontWeight: 'bold', textDecoration: 'none', textTransform: 'uppercase' }}>
+                    <a 
+                      href={p.live} 
+                      target="_blank" 
+                      rel="noopener noreferrer" 
+                      className="brutal-link-button"
+                      aria-label={`Open live deployment for ${p.title}`}
+                    >
                       [ LIVE DEPLOYMENT ]
                     </a>
                   )}
