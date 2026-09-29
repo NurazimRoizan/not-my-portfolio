@@ -3,33 +3,15 @@ import React from 'react'
 const projects = [
   {
     id: 1,
-    title: "Graph Theory Vis Tool",
-    description: "Built an interactive Java desktop app to demystify complex graph isomorphism and the k-Pebble game. Took abstract math and made it a tangible weapon for learning.",
-    tags: ["Java", "Graphstream", "Graph Theory"],
-    theme: "pink",
-    repo: "https://github.com/NurazimRoizan/dissertation-com3610",
-    live: null
+    title: "WALLO",
+    description: "Boring corporate guestbooks are dead. A live multiplayer sticker playground for events and spaces. Slap stickers, drop polaroid photos, pull daily gacha buffs from a mystery vault, and terrorize venue walls in real-time across iOS, Android, and web with locked 120 FPS spring physics.",
+    tags: ["React Native", "Expo", "Supabase", "Reanimated"],
+    theme: "yellow",
+    repo: null,
+    live: "https://wallo.jimiroi.com"
   },
   {
     id: 2,
-    title: "IoT UnPhone Game",
-    description: "Hacked an Unphone (ESP32) into a dual-input game controller. Flick the device to jump via IMU sensors or smash the physical button. Sent HTTP commands to a local server. Absolute physical chaos.",
-    tags: ["C++", "ESP32", "IoT"],
-    theme: "cyan",
-    repo: null,
-    live: null
-  },
-  {
-    id: 3,
-    title: "GeeyBoard",
-    description: "Built a custom single-handed BLE keyboard and IR remote. Designed purely for maximum laziness on the sofa. Connects to anything, controls everything.",
-    tags: ["Embedded C++", "BLE", "IR"],
-    theme: "yellow",
-    repo: "https://github.com/NurazimRoizan/GeeyBoard",
-    live: null
-  },
-  {
-    id: 4,
     title: "PiYak Full-Stack",
     description: "A PWA built to track periods and daily poop counts. Because bloated ad-filled mobile trackers are a scam. Evolved into a Next.js beast with real-time partner syncing, native push notifications, and secure Clerk auth.",
     tags: ["Next.js", "PWA", "Clerk"],
@@ -38,7 +20,7 @@ const projects = [
     live: "https://piyak.jimiroi.com/"
   },
   {
-    id: 5,
+    id: 3,
     title: "MATA",
     description: "Why buy a security camera when you have an old phone and a browser? A serverless, peer-to-peer PWA that keeps an eye on your stuff with chaotic sticker aesthetics and raw real-time motion detection.",
     tags: ["Serverless", "P2P", "PWA"],
@@ -47,7 +29,34 @@ const projects = [
     live: "https://portfolio.jimiroi.com/Mata/"
   },
   {
+    id: 4,
+    title: "GeeyBoard",
+    description: "Built a custom single-handed BLE keyboard and IR remote. Designed purely for maximum laziness on the sofa. Connects to anything, controls everything.",
+    tags: ["Embedded C++", "BLE", "IR"],
+    theme: "yellow",
+    repo: "https://github.com/NurazimRoizan/GeeyBoard",
+    live: null
+  },
+  {
+    id: 5,
+    title: "Graph Theory Vis Tool",
+    description: "Built an interactive Java desktop app to demystify complex graph isomorphism and the k-Pebble game. Took abstract math and made it a tangible weapon for learning.",
+    tags: ["Java", "Graphstream", "Graph Theory"],
+    theme: "pink",
+    repo: "https://github.com/NurazimRoizan/dissertation-com3610",
+    live: null
+  },
+  {
     id: 6,
+    title: "IoT UnPhone Game",
+    description: "Hacked an Unphone (ESP32) into a dual-input game controller. Flick the device to jump via IMU sensors or smash the physical button. Sent HTTP commands to a local server. Absolute physical chaos.",
+    tags: ["C++", "ESP32", "IoT"],
+    theme: "cyan",
+    repo: null,
+    live: null
+  },
+  {
+    id: 7,
     title: "THE BENCH",
     description: "A Progressive Web App for tracking app ideas. Built as a technical proving ground to brutally experiment with modern backend architectures, Clerk authentication, and Prisma/PostgreSQL models.",
     tags: ["PostgreSQL", "Prisma", "Clerk"],

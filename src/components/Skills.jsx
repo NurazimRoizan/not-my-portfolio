@@ -1,7 +1,7 @@
 import React from 'react'
 
 const skills = [
-  "JavaScript/TypeScript", "Angular", "C#", "React", "Next.js", 
+  "JavaScript/TypeScript", "React Native", "Expo", "Supabase", "Angular", "C#", "React", "Next.js", 
   "Node.js", "Java", "Ruby on Rails", "Tailwind CSS", "Git", 
   "Firebase", "Python", "C++", "Haskell", "ESP32"
 ]
